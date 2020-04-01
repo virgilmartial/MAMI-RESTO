@@ -1,0 +1,290 @@
+@media(max-width:1570px){
+    .rigth div{
+        width: 220px;
+        margin-left: 7px;
+    }
+    .petit-menu{
+        width: 150px;
+        height: 100px;
+        padding-bottom: 1em;
+    }
+    .contener h2{
+     
+        font-size: 2em;
+        padding: .5em 0;
+    }
+    .rigth a{
+        width: 150px;
+       padding:  1.2em 0;
+     
+    }
+    .rigth span{
+        font-size: 1.5em;
+    }
+    .rigth p{
+        font-size: 1.4em;
+        padding-top: 0.6em;
+    
+    }
+    
+}
+
+@media(max-width:1098px){
+    .baner h1{
+    font-size: 4.3em;
+    padding-top: .1em
+    ;
+}
+    .baner h3{
+    font-size: 1.9em;
+    padding-bottom: .4em;
+
+}
+.left span{ 
+    border: 1px solid gray;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1em;
+    padding: .4em 0;
+    width: 1.5em;
+}
+.casa-aside2{
+    display: flex;
+    justify-content: center;
+}
+.left2{
+    position: absolute;
+    z-index: -1;
+}
+
+}
+
+@media(max-width:1300px){
+    .casa-aside{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .left{
+        width: 55%;
+
+    }
+
+}
+
+
+@media(max-width:1152px){
+    header{
+        padding-top: 6em;
+    }
+    
+    .rigth{
+        width: 78%;
+    }
+    .rigth div{
+        width: 48%;
+        margin-left: 2px;
+    }
+    
+    .left span{ 
+        border: 1px solid gray;
+        border-radius: 100px;
+        text-align: center;
+        font-size: 1em;
+        padding: .9em 0;
+        width: 3em;
+    }
+    .left{
+        width: 77%;
+    }
+
+    .bandera h2{
+        font-size: 2em;
+        margin: 0 auto;
+        text-align: center;
+        color: var(--color-white);
+    }
+    .casa-cosineros{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-letter h2{
+        font-size: 1em;
+    
+    }
+
+    .logo-footer{
+        width: 90px;
+    }
+    .icon-footer{
+        width: 30px;
+    }
+ 
+
+
+}
+
+
+@media(max-width:690px){
+    header{
+        padding-top: 4em;
+    }
+   
+    .contener h2{
+        text-align: center;
+        font-size: 1.5em;
+        padding: .4em 0;
+    }
+    .bandera h2{
+        font-size: 1.5em;
+        margin: 0 auto;
+        text-align: center;
+        color: var(--color-white);
+    }
+    .casa-footer{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3em;
+       
+    }
+    .btn-reservation{
+        display: block;
+        background-color: var(--color-arange);
+        width: 190px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        margin: 2em auto;
+    }
+
+
+
+    
+}
+
+
+@media(max-width:638px){
+    .left{
+        width: 98%;
+
+    }
+    .rigth{
+        width: 98%;
+    }
+    .iconito{
+        width: 18px;
+        height: 15px;
+    }
+    .band1 a{
+      
+        font-size: .4em;
+        margin: 0 5px;
+        transition: all .3s ease-in-out;
+    }
+    nav img{
+        width: 40px
+    }
+    .navigo{
+      display: none;
+      flex-direction: column;
+    
+    }
+    nav span{
+        display: block;
+    }
+    .l-i-navigo:hover  .navigo{
+        display: block;
+    
+    }
+    .l-i-navigo:hover  .navigo a{
+        color: white
+    
+    }
+
+    .l-i-navigo{
+        position: absolute;
+        top: 45px;
+        right: 0;
+        text-align: right;
+    }
+    .baner h1{
+        font-size: 3.3em;
+        padding-top: .1em
+        ;
+    }
+    
+    .baner h3{
+        font-size: 1.3em;
+        padding-bottom: .4em;
+    
+    }
+    .baner{
+        width: 85%;
+       
+    }
+
+    .rigth{
+        flex-wrap: wrap;   
+        justify-content: center;
+    }
+
+    .rigth div{
+        width: 280px;
+        min-width: 150px;
+        margin-left: 7px;
+    }
+
+    .rigth a{
+        width: 150px;
+       padding:  1.2em 0;
+       top: 20%;
+       left: 13%;
+     
+    }
+    .logo-footer{
+        width: 60px;
+    }
+    .icon-footer{
+        width: 30px;
+    }
+
+    .navigo li a{
+        color: var(--color-white);
+        display: block;
+        padding: 5px 15px;
+        transition: all .3s ease-in-out;
+        font-family: var(--font-family-comic);
+        background-color: rgba(15, 5, 5, 0.747);
+    
+    }
+   
+    
+
+  
+}
+
+@media(max-width:481px){
+    .petit-menu{
+        width: 90px;
+        height: 62px;
+        padding-bottom: .5em;
+    }
+    .rigth span{
+        font-size: 1em;
+    }
+    .rigth div{
+        width: 280px;
+        margin-right: 7px;
+    }
+     /* a dimicilio */
+     table,tr{
+        font-size: .9em;
+    }
+  
+
+}
